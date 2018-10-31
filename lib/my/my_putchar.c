@@ -1,11 +1,11 @@
 /*
 ** EPITECH PROJECT, 2018
-** CPool_Day07_2018
+** my_putchar
 ** File description:
-** [enter description here]
+** The my_putchar function
 */
 
-#include <stdio.h>
+#include <unistd.h>
 
 void my_putchar(char c)
 {
