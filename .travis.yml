@@ -1,2 +1,4 @@
 language: c
-script: cd lib/my | make
+script:
+    - cd lib/my/
+    - make
