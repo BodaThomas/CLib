@@ -5,6 +5,8 @@
 ** The task05 of the CPool Day05
 */
 
+#include "lib.h"
+
 int my_compute_square_root(int nb)
 {
     int searcher = 0;

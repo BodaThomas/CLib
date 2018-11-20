@@ -5,6 +5,8 @@
 ** The my_putchar function
 */
 
+#include "lib.h"
+
 #include <unistd.h>
 
 void my_putchar(char c)

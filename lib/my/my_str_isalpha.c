@@ -5,6 +5,8 @@
 ** The task10 of the CPool Day06
 */
 
+#include "lib.h"
+
 int my_str_isalpha(char const *str)
 {
     int str_length = my_strlen(str);

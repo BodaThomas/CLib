@@ -5,6 +5,8 @@
 ** The task01 of the CPool Day06
 */
 
+#include "lib.h"
+
 char *my_strcpy(char *dest, char const *src)
 {
     int i = 0;

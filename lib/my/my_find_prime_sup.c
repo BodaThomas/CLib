@@ -5,6 +5,8 @@
 ** The task07 of the CPool Day05
 */
 
+#include "lib.h"
+
 int my_find_prime_sup(int nb)
 {
     int i = nb + 1;

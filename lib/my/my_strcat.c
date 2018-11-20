@@ -5,6 +5,8 @@
 ** The task02 of the CPool Day07
 */
 
+#include "lib.h"
+
 char *my_strcat(char *dest, char const *src)
 {
     int dest_length = my_strlen(dest);

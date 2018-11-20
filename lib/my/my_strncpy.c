@@ -5,6 +5,8 @@
 ** The task02 of the CPool Day06
 */
 
+#include "lib.h"
+
 char *my_strncpy(char *dest, char const *src, int n)
 {
     int i = 0;

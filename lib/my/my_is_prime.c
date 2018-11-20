@@ -5,6 +5,8 @@
 ** The task06 of the CPool Day05
 */
 
+#include "lib.h"
+
 int my_is_prime(int nb)
 {
     int i = nb - 1;

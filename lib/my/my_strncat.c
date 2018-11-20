@@ -5,6 +5,8 @@
 ** The task03 of the CPool Day07
 */
 
+#include "lib.h"
+
 char *my_strncat(char *dest, char const *src, int nb)
 {
     int dest_length = my_strlen(dest);

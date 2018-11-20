@@ -5,6 +5,8 @@
 ** The task04 of the CPool Day05
 */
 
+#include "lib.h"
+
 int my_compute_power_rec(int nb, int p)
 {
     int result = 1;

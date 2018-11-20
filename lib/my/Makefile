@@ -26,8 +26,9 @@ SRC =	my_compute_power_rec.c \
 		my_strncpy.c \
 		my_swap.c
 
-
 OBJ = $(SRC:.c=.o)
+
+CFLAGS = -I../../include
 
 all:	$(NAME)
 

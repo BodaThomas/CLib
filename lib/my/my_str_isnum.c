@@ -5,6 +5,8 @@
 ** The task11 of the CPool Day06
 */
 
+#include "lib.h"
+
 int my_str_isnum(char const *str)
 {
     int str_length = my_strlen(str);

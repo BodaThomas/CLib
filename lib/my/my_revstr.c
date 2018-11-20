@@ -5,6 +5,8 @@
 ** The task03 of the CPool Day06
 */
 
+#include "lib.h"
+
 char *my_revstr(char *str)
 {
     int str_length = my_strlen(str) - 1;

@@ -5,6 +5,8 @@
 ** The task07 of the CPool Day03
 */
 
+#include "lib.h"
+
 int my_put_nbr(int nb)
 {
     long mod;

@@ -5,6 +5,8 @@
 ** The task04 of the CPool Day03
 */
 
+#include "lib.h"
+
 int my_isneg(int n)
 {
     if (n < 0) {

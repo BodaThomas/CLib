@@ -6,6 +6,7 @@
 */
 
 #include <stdlib.h>
+#include "lib.h"
 
 int my_getnbr(char const *str)
 {
