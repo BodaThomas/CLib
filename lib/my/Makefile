@@ -25,7 +25,8 @@ SRC =	my_compute_power_rec.c \
 		my_strncat.c \
 		my_strncpy.c \
 		my_swap.c \
-		my_strcmp.c
+		my_strcmp.c \
+		my_split.c
 
 OBJ = $(SRC:.c=.o)
 
