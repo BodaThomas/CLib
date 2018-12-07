@@ -5,18 +5,13 @@
 ** The my_split function
 */
 
-// "bonjour je m'appelle thomas", ' ' > "bonjour" "je" "m'appelle" "thomas"
-// "    bonjour      je   m'apelle    thomas    ", ' '
-
 #include <stdlib.h>
 #include "lib.h"
 
 char **my_split(char const *str, char deli)
 {
     char **final = malloc(sizeof(char *) * (numb_of_words(str, deli) + 1));
-    int i = 0;
-    int word_numb = 0;
-    int i_numb = 0;
+    int i = 0, word_numb = 0, i_numb = 0, size = 0;
 
     final[numb_of_words(str, deli)] = NULL;
     final[word_numb] = malloc(sizeof(char) * (word_size(str, i, deli) + 1));
@@ -25,7 +20,7 @@ char **my_split(char const *str, char deli)
             final[word_numb][i_numb] = '\0';
             word_numb++;
             i++;
-            int size = word_size(str, i, deli);
+            size = word_size(str, i, deli);
             final[word_numb] = malloc(sizeof(char) * (size + 1));
             i_numb = 0;
         }
