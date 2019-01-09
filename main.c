@@ -6,6 +6,7 @@
 */
 
 #include "lib.h"
+#include "example.h"
 
 int main(int argc, char const *argv[])
 {
