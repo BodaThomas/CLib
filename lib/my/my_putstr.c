@@ -5,6 +5,7 @@
 ** The task02 of the CPool Day04
 */
 
+#include <unistd.h>
 #include "lib.h"
 
 int my_putstr(char const *str)
