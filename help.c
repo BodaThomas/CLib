@@ -9,5 +9,5 @@
 
 void help(void)
 {
-    printf("This program can not do anything for the moment.\n");
+    my_putstr("This program can not do anything for the moment.\n");
 }
