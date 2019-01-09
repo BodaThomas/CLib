@@ -7,7 +7,7 @@
 
 #include "lib.h"
 
-int my_put_nbr(int nb)
+void my_put_nbr(int nb)
 {
     long mod;
 
