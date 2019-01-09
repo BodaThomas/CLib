@@ -5,7 +5,6 @@
 ** The help function of the lib
 */
 
-#include <stdio.h>
 #include "lib.h"
 
 void help(void)
