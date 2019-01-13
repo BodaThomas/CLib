@@ -5,6 +5,7 @@
 ** The task02 of the CPool Day07
 */
 
+#include <stdlib.h>
 #include "lib.h"
 
 char *my_strcat(char *dest, char const *src)
