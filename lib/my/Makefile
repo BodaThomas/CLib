@@ -2,7 +2,7 @@
 ## EPITECH PROJECT, 2018
 ## project
 ## File description:
-## The task01 of the CPool Day10
+## The Makefile of the lib
 ##
 
 NAME = libmy.a
@@ -26,7 +26,8 @@ SRC =	my_compute_power_rec.c \
 		my_strncpy.c \
 		my_swap.c \
 		my_strcmp.c \
-		my_split.c
+		my_split.c \
+		my_strncmp.c
 
 OBJ = $(SRC:.c=.o)
 
