@@ -24,6 +24,7 @@ char *my_strncat(char *dest, char const *src, int nb);
 char *my_strncpy(char *dest, char const *src, int n);
 void my_swap(int *a, int *b);
 int my_strcmp(char const *s1, char const *s2);
+int my_strncmp(char const *s1, char const *s2, int n);
 char **my_split(char const *str, char deli);
 int numb_of_words(char const *str, char delimiter);
 int word_size(char const *str, int pos, char delimiter);
