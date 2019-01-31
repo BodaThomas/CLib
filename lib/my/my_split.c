@@ -15,7 +15,7 @@ char **my_split(char const *str, char deli)
 
     final[numb_of_words(str, deli)] = NULL;
     final[word_numb] = malloc(sizeof(char) * (word_size(str, i, deli) + 1));
-    while(i != my_strlen(str)) {
+    while (i != my_strlen(str)) {
         if (str[i] == deli) {
             final[word_numb][i_numb] = '\0';
             word_numb++;

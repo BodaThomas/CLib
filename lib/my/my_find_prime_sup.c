@@ -24,4 +24,5 @@ int my_find_prime_sup(int nb)
             i_prime++;
         }
     }
+    return (0);
 }

@@ -5,17 +5,24 @@
 ** The task02 of the CPool Day07
 */
 
+#include <stdlib.h>
 #include "lib.h"
 
 char *my_strcat(char *dest, char const *src)
 {
     int dest_length = my_strlen(dest);
     int i = 0;
+    char* final = malloc(sizeof(char) * (my_strlen(src) + dest_length + 1));
 
-    while (src[i] != '\0') {
-        dest[dest_length + i] = src[i];
+    while (dest[i] != '\0') {
+        final[i] = dest[i];
         i++;
     }
-    dest[dest_length + i] = '\0';
-    return (dest);
+    i = 0;
+    while (src[i] != '\0') {
+        final[dest_length + i] = src[i];
+        i++;
+    }
+    final[dest_length + i] = '\0';
+    return (final);
 }

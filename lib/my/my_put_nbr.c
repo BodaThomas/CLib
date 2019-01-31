@@ -26,4 +26,5 @@ int my_put_nbr(int nb)
         my_put_nbr(nb/10);
         my_putchar(nb%10 + '0');
     }
+    return (0);
 }
