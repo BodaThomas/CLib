@@ -23,3 +23,38 @@ Please, if you're a students who want to make his own library due to a project s
     void my_swap(int *a, int *b);
     int my_strcmp(char const *s1, char const *s2);
     char **my_split(char const *str, char deli);
+
+##Development status :construction:
+
+| Functions | Description | Done |
+| --- | --- | --- |
+| `my_putchar` | Print one given char | :white_check_mark: |
+| `my_isneg` | Check if the number given as parameter is negative |
+| `my_put_nbr` | Print a given number | :white_check_mark: |
+| `my_swap` |  | :white_check_mark: |
+| `my_putstr` | Print a giver char* | :white_check_mark: |
+| `my_strlen` | Return the size of a char* | :white_check_mark: |
+| `my_getnbr` |  | :white_check_mark: |
+| `my_sort_int_array` |  |
+| `my_compute_power_rec` |  | :white_check_mark: |
+| `my_compute_square_root` |  | :white_check_mark: |
+| `my_is_prime` |  | :white_check_mark: |
+| `my_find_prime_sup` |  | :white_check_mark: |
+| `my_strcpy` |  | :white_check_mark: |
+| `my_strncpy` |  | :white_check_mark: |
+| `my_revstr` |  | :white_check_mark: |
+| `my_strstr` |  |
+| `my_strcmp` |  | :white_check_mark: |
+| `my_strncmp` |  | :white_check_mark: |
+| `my_strupcase` |  |
+| `my_strlowcase` |  |
+| `my_strcapitalize` |  |
+| `my_str_isalpha` |  | :white_check_mark: |
+| `my_str_isnum` |  | :white_check_mark: |
+| `my_str_islower` |  |
+| `my_str_isupper` |  |
+| `my_str_isprintable` |  |
+| `my_showstr` |  |
+| `my_showmem` |  |
+| `my_strcat` |  | :white_check_mark: |
+| `my_strncat` |  | :white_check_mark: |
