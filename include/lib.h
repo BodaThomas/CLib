@@ -28,3 +28,4 @@ int my_strncmp(char const *s1, char const *s2, int n);
 char **my_split(char const *str, char deli);
 int numb_of_words(char const *str, char delimiter);
 int word_size(char const *str, int pos, char delimiter);
+char *my_strdup(char const *src);
