@@ -43,6 +43,7 @@ Please, if you're a students who want to make his own library due to a project s
 | `my_strcpy` | Copy a string into another | :white_check_mark: |
 | `my_strncpy` | Copy `n` characters from a string into another | :white_check_mark: |
 | `my_revstr` | Reverse a string | :white_check_mark: |
+ `my_strdup` | Duplicate a string | :white_check_mark: |
 | `my_strstr` |  |
 | `my_strcmp` |  | :white_check_mark: |
 | `my_strncmp` |  | :white_check_mark: |
