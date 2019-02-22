@@ -10,10 +10,14 @@
 
 char *my_strcat(char *dest, char const *src)
 {
-    int dest_length = my_strlen(dest);
+    int dest_length = 0;
     int i = 0;
-    char* final = malloc(sizeof(char) * (my_strlen(src) + dest_length + 1));
+    char* final = NULL;
 
+    if (dest == NULL)
+        return (my_strdup(src));
+    dest_length = my_strlen(dest);
+    final = malloc(sizeof(char) * (my_strlen(src) + dest_length + 1));
     while (dest[i] != '\0') {
         final[i] = dest[i];
         i++;
