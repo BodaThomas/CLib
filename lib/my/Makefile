@@ -27,11 +27,12 @@ SRC =	my_compute_power_rec.c \
 		my_swap.c \
 		my_strcmp.c \
 		my_split.c \
-		my_strncmp.c
+		my_strncmp.c \
+		my_strdup.c
 
 OBJ = $(SRC:.c=.o)
 
-CFLAGS = -I../../include
+CFLAGS = -I../../include -Wall -Wextra
 
 all:	$(NAME)
 
