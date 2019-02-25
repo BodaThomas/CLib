@@ -9,8 +9,6 @@
 
 int my_put_nbr(int nb)
 {
-    long mod;
-
     if (nb == -2147483648) {
         my_put_nbr(-214748364);
         my_putchar('8');
