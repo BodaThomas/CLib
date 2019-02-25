@@ -29,7 +29,7 @@ Please, if you're a students who want to make his own library due to a project s
 | Functions | Description | Done |
 | --- | --- | --- |
 | `my_putchar` | Print one given char | :white_check_mark: |
-| `my_isneg` | Check if the number given as parameter is negative |
+| `my_isneg` | Check if the number given as parameter is negative | :white_check_mark: |
 | `my_put_nbr` | Print a given number | :white_check_mark: |
 | `my_swap` | Swap the content of two integers | :white_check_mark: |
 | `my_putstr` | Print a given char* | :white_check_mark: |
