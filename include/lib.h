@@ -10,7 +10,7 @@ int my_compute_square_root(int nb);
 int my_find_prime_sup(int nb);
 int my_getnbr(char const *str);
 int my_is_prime(int nb);
-void my_isneg(int n);
+int my_isneg(int n);
 int my_put_nbr(int nb);
 void my_putchar(char c);
 int my_putstr(char const *str);

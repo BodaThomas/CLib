@@ -7,12 +7,7 @@
 
 #include "lib.h"
 
-void my_isneg(int n)
+int my_isneg(int n)
 {
-    if (n < 0) {
-        my_putchar(78);
-    }
-    else {
-        my_putchar(80);
-    }
+    return (n < 0);
 }
