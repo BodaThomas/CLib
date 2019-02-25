@@ -55,7 +55,7 @@ Please, if you're a students who want to make his own library due to a project s
 | `my_str_islower` | Return **1** if the string passed as parameter only contains lowercase alphabetical characters and **0** otherwise |
 | `my_str_isupper` | Return **1** if the string passed as parameter only contains uppercase alphabetical characters and **0** otherwise |
 | `my_str_isprintable` | Return **1** if the string passed as parameter only contains printable characters and **0** otherwise |
-| `my_showstr` | Print a string and return 0 |
-| `my_showmem` | Print a memory dump and return 0 |
+| `my_showstr` | Print a string and return **0** |
+| `my_showmem` | Print a memory dump and return **0** |
 | `my_strcat` | Concatenate two strings | :white_check_mark: |
 | `my_strncat` | Concatenate `n` characters of the source string to the end of the destination string | :white_check_mark: |
