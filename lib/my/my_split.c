@@ -49,7 +49,7 @@ int word_size(char const *str, int pos, char delimiter)
 {
     int size = 0;
 
-    while (str[pos] != delimiter) {
+    while (str[pos] != delimiter && str[pos] != '\0') {
         pos++;
         size++;
     }
