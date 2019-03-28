@@ -59,3 +59,6 @@ Please, if you're a students who want to make his own library due to a project s
 | `my_showmem` | Print a memory dump and return **0** |
 | `my_strcat` | Concatenate two strings | :white_check_mark: |
 | `my_strncat` | Concatenate `n` characters of the source string to the end of the destination string | :white_check_mark: |
+| `my_split` | | :warning: |
+| `my_atoi` | | |
+| `my_itoa` | | |
