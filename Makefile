@@ -19,7 +19,6 @@ all:		$(NAME)
 $(NAME):	$(OBJ)
 		make -C lib/my
 		gcc $(OBJ) -o $(NAME) $(CFLAGS) -Llib/my -lmy
-		rm $(OBJ)
 
 clean:
 		rm -f $(OBJ)
