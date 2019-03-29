@@ -5,4 +5,6 @@
 ** This is the .h file of the example program of the CLib
 */
 
+#include "lib.h"
+
 void help(void);
