@@ -7,8 +7,8 @@
 
 NAME	=	example
 
-SRC	=	main.c \
-		help.c
+SRC	=	src/main.c \
+		src/help.c
 
 OBJ	=	$(SRC:.c=.o)
 
