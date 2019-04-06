@@ -1,6 +1,6 @@
 # CLib :book:   [![Build Status](https://travis-ci.com/MrToto54/CLib.svg?branch=master)](https://travis-ci.com/MrToto54/CLib)
-My personal C library that replace differents systems functions.
-Please, if you're a students who want to make his own library due to a project school, don't "copy/paste" the codes. Do your **OWN** code.
+My personal C library that replace some basic systems functions.<br/>
+Please, if you're a students who want to make his own library due to a project school, don't copy my code. Do your **OWN** code.
 
 ## Functions :space_invader:
     int my_compute_power_rec(int nb, int p);
