@@ -1,9 +1,11 @@
 /*
-** EPITECH PROJECT, 2018
-** CPE_BSQ_2018
+** EPITECH PROJECT, 2019
+** lib.h
 ** File description:
-** The lib h file
+** The .h file of the CLib
 */
+#ifndef CLIB_H
+#define CLIB_H
 
 int my_compute_power_rec(int nb, int p);
 int my_compute_square_root(int nb);
@@ -29,3 +31,5 @@ char **my_split(char const *str, char deli);
 int numb_of_words(char const *str, char delimiter);
 int word_size(char const *str, int pos, char delimiter);
 char *my_strdup(char const *src);
+
+#endif
