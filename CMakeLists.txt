@@ -19,6 +19,7 @@ include_directories(include)
 
 add_executable(CLib
         include/example.h
+        include/lib.h
         lib/my/my_compute_power_rec.c
         lib/my/my_compute_square_root.c
         lib/my/my_find_prime_sup.c
