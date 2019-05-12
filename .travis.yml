@@ -1,5 +1,14 @@
-compiler: gcc
+os: linux
 language: c
+
+before-script:
+    - sudo add-apt-repository ppa:snaipewastaken/ppa
+    - sudo apt-get update
+    - sudo apt-get install criterion-dev
+
 script:
     - cd lib/my/
     - make
+
+compiler:
+    - gcc

@@ -2,13 +2,12 @@
 ## EPITECH PROJECT, 2019
 ## CLib
 ## File description:
-## An example of a Makefile who compile with the library
+## The Makefile of the CLib Unit Tests
 ##
 
-NAME	=	example
+NAME	=	clib_tests
 
-SRC	=	src/main.c \
-		src/help.c
+SRC	=	test_my_strlen.c
 
 OBJ	=	$(SRC:.c=.o)
 
@@ -17,22 +16,16 @@ CFLAGS	=	-g -Wall -Wextra -Iinclude
 all:		$(NAME)
 
 $(NAME):	$(OBJ)
-		make -C lib/my
-		gcc $(OBJ) -o $(NAME) $(CFLAGS) -Llib/my -lmy
-
-tests_run:
-		make -C tests/
-		./tests/clib_tests
+		make -C ../lib/my
+		gcc $(OBJ) -o $(NAME) $(CFLAGS) -L../lib/my -lmy -lcriterion
 
 clean:
 		rm -f $(OBJ)
 		rm -f *~ \#*\#
-		make -C tests clean
 
 fclean:		clean
 		rm -f $(NAME)
 		make -C lib/my fclean
-		make -C tests/ clean
 
 re:		fclean all
 
