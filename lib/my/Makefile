@@ -26,7 +26,6 @@ SRC =	my_compute_power_rec.c \
 		my_strncpy.c \
 		my_swap.c \
 		my_strcmp.c \
-		my_split.c \
 		my_strncmp.c \
 		my_strdup.c
 
