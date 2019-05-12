@@ -16,14 +16,15 @@ int my_getnbr(char const *str)
     int final = 0;
 
     while (i != length) {
-        if (str[i] >= 48 && str[i] <= 57) {
+        if (str[i] >= '0' && str[i] <= '9') {
             final = final * 10 + (str[i] - '0');
             find = find + 1;
         }
-            i++;
-        if (!(str[i] >= 48 && str[i] <= 57) && (str[i - 1] >= 48 &&
-            str[i - 1] <= 57)) {
-            return (final);
+        if (!(str[i + 1] >= '0' && str[i + 1] <= '9') && (str[i] >= '0' &&
+            str[i] <= '9')) {
+            return final;
         }
+        i++;
     }
+    return final;
 }
