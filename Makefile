@@ -32,7 +32,7 @@ clean:
 fclean:		clean
 		rm -f $(NAME)
 		make -C lib/my fclean
-		make -C tests/ clean
+		make -C tests/ fclean
 
 re:		fclean all
 
