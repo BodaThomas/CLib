@@ -30,9 +30,9 @@ add_executable(CLib
         lib/my/my_putchar.c
         lib/my/my_putstr.c
         lib/my/my_revstr.c
-        lib/my/my_split.c
         lib/my/my_str_isalpha.c
         lib/my/my_str_isnum.c
+        lib/my/my_str_isalphanum.c
         lib/my/my_strcat.c
         lib/my/my_strcmp.c
         lib/my/my_strcpy.c

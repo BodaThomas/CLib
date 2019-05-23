@@ -19,6 +19,7 @@ SRC =	my_compute_power_rec.c \
 		my_revstr.c \
 		my_str_isalpha.c \
 		my_str_isnum.c \
+		my_str_isalphanum.c \
 		my_strcat.c \
 		my_strcpy.c \
 		my_strlen.c \
