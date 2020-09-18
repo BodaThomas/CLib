@@ -2,11 +2,7 @@ version: 2.1
 jobs:
   build:
     docker:
-      - image: gcc
+      - image: epitechcontent/epitest-docker
     steps:
       - run:
-          command: |
-            add-apt-repository -y ppa:snaipewastaken/ppa
-            apt-get update
-            apt-get install criterion-dev
-            make tests_run
+          command: make tests_run
